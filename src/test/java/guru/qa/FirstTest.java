@@ -13,4 +13,14 @@ public class FirstTest {
         student.goToPension();
         student.sayName();
     }
+
+    @Test
+    void second() {
+
+        Person student = new Person();
+        student.age = 33;
+        student.name = "Sasha";
+        student.goToPension();
+        student.sayName();
+    }
 }
